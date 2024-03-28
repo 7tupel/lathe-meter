@@ -15,3 +15,10 @@
  ******************************************************************************/
 
 #include <Arduino.h>
+#include <Servo.h>
+
+/// Pin used to read the CNY70 analog value
+#define SENSOR_PIN A0
+
+/// RPM motor pin
+#define RPM_METER_PIN D0
